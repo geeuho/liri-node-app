@@ -28,11 +28,11 @@ if (command === undefined) {
 	});
  
 else {
-	whichCommand(command);
+	chooseCommand(command);
 }
 
 
-function whichCommand(input) {
+function chooseCommand(input) {
 	switch(command) {
 		case "my-tweets":
 			twitter();
